@@ -1,4 +1,29 @@
-#!/bin/bash
+#!/usr/bin/perl
+
+
+
+
+
+open (MYFILE, 'in.txt');
+
+
+while () {
+
+	chomp;
+
+	print "$_\n";
+}
+
+
+
+
+
+
+
+
+
+exit
+
 
 perl -p -i -e 's/\n//g;' `find /wpages/$1/content/* -name '*.php'`
 
